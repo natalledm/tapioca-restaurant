@@ -1,7 +1,13 @@
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Home from "./components/Pages/Home";
+
 export default function App() {
   return (
-    <div className="App">
-      Try it
-    </div>
+    <>
+      <Navbar />
+      <Home />
+      <Footer />
+    </>
   );
 };
