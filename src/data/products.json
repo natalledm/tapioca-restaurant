@@ -3,18 +3,204 @@
     "category": "dishes",
     "title": "Dishes",
     "photo": "tapioca.jpg",
-    "description": "These are delicious dishes made with tapioca and plant based ingredients. Enjoy!"
+    "description": "These are delicious dishes made with tapioca and plant based ingredients. Enjoy!",
+    "items": [
+      {
+        "id": 1,
+        "category": "dish",
+        "name": "A Simple Tapioca",
+        "photo": "assets",
+        "description": "It's a delicious treat made of tapioca starch extracted from the cassava root and heated on a frying pan. Ask us for the fruits of the season!",
+        "ingredients": [
+          "tapioca flour",
+          "water",
+          "salt",
+          "sugar"
+        ],
+        "nutrition": {
+          "calories": "100cal",
+          "carbohydrates": "26g",
+          "proteins": "0g",
+          "fats": "0g",
+          "fiber": "0g",
+          "vitamins": [
+            "A",
+            "B",
+            "C"
+          ],
+          "minerals": [
+            "iron",
+            "potassium"
+          ],
+          "water": "10ml"
+        }
+      },
+      {
+        "id": 2,
+        "category": "dish",
+        "name": "A Simple Tapioca",
+        "photo": "assets",
+        "description": "It's a delicious treat made of tapioca starch extracted from the cassava root and heated on a frying pan",
+        "ingredients": [
+          "tapioca flour",
+          "water",
+          "salt",
+          "sugar"
+        ],
+        "nutrition": {
+          "calories": "100cal",
+          "carbohydrates": "26g",
+          "proteins": "0g",
+          "fats": "0g",
+          "fiber": "0g",
+          "vitamins": [
+            "A",
+            "B",
+            "C"
+          ],
+          "minerals": [
+            "iron",
+            "potassium"
+          ],
+          "water": "10ml"
+        }
+      }
+    ]
   },
   {
     "category": "desserts",
     "title": "Desserts",
     "photo": "waffle.jpg",
-    "description": "Sweets made from tapioca flour and plants!"
+    "description": "Sweets made from tapioca flour and plants!",
+    "items": [
+      {
+        "id": 1,
+        "category": "dessert",
+        "name": "A Simple Tapioca",
+        "photo": "assets",
+        "description": "It's a delicious treat made of tapioca starch extracted from the cassava root and heated on a frying pan",
+        "ingredients": [
+          "tapioca flour",
+          "water",
+          "salt",
+          "sugar"
+        ],
+        "nutrition": {
+          "calories": "100cal",
+          "carbohydrates": "26g",
+          "proteins": "0g",
+          "fats": "0g",
+          "fiber": "0g",
+          "vitamins": [
+            "A",
+            "B",
+            "C"
+          ],
+          "minerals": [
+            "iron",
+            "potassium"
+          ],
+          "water": "10ml"
+        }
+      },
+      {
+        "id": 2,
+        "category": "dessert",
+        "name": "A Simple Tapioca",
+        "photo": "assets",
+        "description": "It's a delicious treat made of tapioca starch extracted from the cassava root and heated on a frying pan",
+        "ingredients": [
+          "tapioca flour",
+          "water",
+          "salt",
+          "sugar"
+        ],
+        "nutrition": {
+          "calories": "100cal",
+          "carbohydrates": "26g",
+          "proteins": "0g",
+          "fats": "0g",
+          "fiber": "0g",
+          "vitamins": [
+            "A",
+            "B",
+            "C"
+          ],
+          "minerals": [
+            "iron",
+            "potassium"
+          ],
+          "water": "10ml"
+        }
+      }
+    ]
   },
   {
     "category": "drinks",
     "title": "Drinks",
     "photo": "boba-tea.jpg",
-    "description": "Delicious boba tea and boba coffee to complement your vegan meal!"
+    "description": "Delicious boba tea and boba coffee to complement your vegan meal!",
+    "items": [
+      {
+        "id": 1,
+        "category": "drink",
+        "name": "Boba Tea",
+        "photo": "assets",
+        "description": "It's a delicious treat made of tapioca starch extracted from the cassava root and heated on a frying pan",
+        "ingredients": [
+          "tapioca flour",
+          "water",
+          "salt",
+          "sugar"
+        ],
+        "nutrition": {
+          "calories": "100cal",
+          "carbohydrates": "26g",
+          "proteins": "0g",
+          "fats": "0g",
+          "fiber": "0g",
+          "vitamins": [
+            "A",
+            "B",
+            "C"
+          ],
+          "minerals": [
+            "iron",
+            "potassium"
+          ],
+          "water": "10ml"
+        }
+      },
+      {
+        "id": 2,
+        "category": "drink",
+        "name": "A Simple Tapioca",
+        "photo": "assets",
+        "description": "It's a delicious treat made of tapioca starch extracted from the cassava root and heated on a frying pan",
+        "ingredients": [
+          "tapioca flour",
+          "water",
+          "salt",
+          "sugar"
+        ],
+        "nutrition": {
+          "calories": "100cal",
+          "carbohydrates": "26g",
+          "proteins": "0g",
+          "fats": "0g",
+          "fiber": "0g",
+          "vitamins": [
+            "A",
+            "B",
+            "C"
+          ],
+          "minerals": [
+            "iron",
+            "potassium"
+          ],
+          "water": "10ml"
+        }
+      }
+    ]
   }
 ]
