@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "category": "drink",
+    "name": "A Simple Tapioca",
+    "photo": "assets",
+    "description": "It's a delicious treat made of tapioca starch extracted from the cassava root and heated on a frying pan",
+    "ingredients": [
+      "tapioca flour",
+      "water",
+      "salt",
+      "sugar"
+    ],
+    "nutrition": {
+      "calories": "100cal",
+      "carbohydrates": "26g",
+      "proteins": "0g",
+      "fats": "0g",
+      "fiber": "0g",
+      "vitamins": [
+        "A",
+        "B",
+        "C"
+      ],
+      "minerals": [
+        "iron",
+        "potassium"
+      ],
+      "water": "10ml"
+    }
+  },
+  {
+    "id": 2,
+    "category": "drink",
+    "name": "A Simple Tapioca",
+    "photo": "assets",
+    "description": "It's a delicious treat made of tapioca starch extracted from the cassava root and heated on a frying pan",
+    "ingredients": [
+      "tapioca flour",
+      "water",
+      "salt",
+      "sugar"
+    ],
+    "nutrition": {
+      "calories": "100cal",
+      "carbohydrates": "26g",
+      "proteins": "0g",
+      "fats": "0g",
+      "fiber": "0g",
+      "vitamins": [
+        "A",
+        "B",
+        "C"
+      ],
+      "minerals": [
+        "iron",
+        "potassium"
+      ],
+      "water": "10ml"
+    }
+  }
+]
