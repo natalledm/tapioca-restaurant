@@ -1,0 +1,20 @@
+[
+  {
+    "category": "dishes",
+    "title": "Dishes",
+    "photo": "tapioca.jpg",
+    "description": "These are delicious dishes made with tapioca and plant based ingredients. Enjoy!"
+  },
+  {
+    "category": "desserts",
+    "title": "Desserts",
+    "photo": "waffle.jpg",
+    "description": "Sweets made from tapioca flour and plants!"
+  },
+  {
+    "category": "drinks",
+    "title": "Drinks",
+    "photo": "boba-tea.jpg",
+    "description": "Delicious boba tea and boba coffee to complement your vegan meal!"
+  }
+]
