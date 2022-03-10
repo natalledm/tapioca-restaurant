@@ -1,6 +1,6 @@
 # Tapioca Vegan Restaurant
 
-Olá! :)
+*Olá!* :)
 
 This is the Tapioca Vegan Restaurant website made with React.
 It is a **mobile first page**, so please check it out first with your mobile or a mobile screen in your browser.
@@ -13,23 +13,23 @@ You can visit the page [here](tbd) to learn more about it!
 
 ### Requirement gathering
 
-Information gathering from the [Assignment](addlink).
+Information gathering from the [Assignment](https://drive.google.com/file/d/1yuSGFLBMUk3Kd41cEj-Gf0i02jf79hWR/view?usp=sharing).
 
 ### Project spreadsheet
 
-A [spreadsheet](addlink) to organize the structure of the project.
+A [spreadsheet](https://drive.google.com/file/d/1yuSGFLBMUk3Kd41cEj-Gf0i02jf79hWR/view?usp=sharing) to organize the structure of the project.
 
 ### Component tree
 
-This is [the component tree](tbd) of this project made on Whimsical.
+This is [the component tree](https://whimsical.com/vegan-restaurant-GZbRoBTY4wFBfpzuGNJo4J@2Ux7TurymNNrKqSovG9j) of this project made on Whimsical.
 
 ### User Flow
 
-This is [the user flow](tbd) of this project made on Whimsical.
+This is [the user flow](https://whimsical.com/vegan-restaurant-GZbRoBTY4wFBfpzuGNJo4J@7YNFXnKbZAGDq4N7S4KND) of this project made on Whimsical.
 
 ### Figma design
 
-There's also a [figma design](tbd).
+There's also a [figma design](https://www.figma.com/file/qIlrk9pXTBrH2LdeLneOBq/Tapioca-Vegan-Restaurant).
 
 ---
 
