@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Montserrat&family=Ubuntu+Mono&display=swap');
+
+:root {
+  --orange: #F77F00;
+  --bold-yellow: #FCBF49;
+  --soft-yellow: #EAE2B7;
+  --white: #FFF;
+  --black: #000;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: var(--soft-white);
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 3.4rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+h3 {
+  font-size: 1.7rem;
+}
+
+h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.7rem;
+}
+
+@media (min-width:600px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 4.2rem;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+  }
+}
