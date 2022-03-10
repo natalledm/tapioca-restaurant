@@ -8,61 +8,94 @@
       {
         "id": 1,
         "category": "dish",
-        "name": "A Simple Tapioca",
-        "photo": "assets",
-        "description": "It's a delicious treat made of tapioca starch extracted from the cassava root and heated on a frying pan. Ask us for the fruits of the season!",
+        "name": "Tapioca",
+        "photo": "tapioca.jpg",
+        "description": "It's a delicious treat made of tapioca starch extracted from the cassava root and heated on a frying pan. Choose your filler, but we recommend our jackfruit barbecue!",
         "ingredients": [
           "tapioca flour",
           "water",
-          "salt",
-          "sugar"
+          "coconut oil",
+          "jackfruit",
+          "barbecue sauce"
         ],
         "nutrition": {
-          "calories": "100cal",
-          "carbohydrates": "26g",
-          "proteins": "0g",
-          "fats": "0g",
-          "fiber": "0g",
-          "vitamins": [
-            "A",
-            "B",
-            "C"
-          ],
-          "minerals": [
-            "iron",
-            "potassium"
-          ],
-          "water": "10ml"
+          "calories": "400 kcal",
+          "carbohydrates": "100 g",
+          "proteins": "33 g",
+          "fats": "20 g",
+          "fiber": "20 g",
+          "sugars": "10 g",
+          "sodium": "8 mg"
         }
       },
       {
         "id": 2,
         "category": "dish",
-        "name": "A Simple Tapioca",
-        "photo": "assets",
-        "description": "It's a delicious treat made of tapioca starch extracted from the cassava root and heated on a frying pan",
+        "name": "Tapioca cubes",
+        "photo": "tapioca-cubes.jpg",
+        "description": "Ever tried our little tapioca cubes with our sweet chili sauce? It's amazing!",
         "ingredients": [
           "tapioca flour",
           "water",
-          "salt",
+          "coconut oil",
+          "chili",
           "sugar"
         ],
         "nutrition": {
-          "calories": "100cal",
-          "carbohydrates": "26g",
-          "proteins": "0g",
-          "fats": "0g",
-          "fiber": "0g",
-          "vitamins": [
-            "A",
-            "B",
-            "C"
-          ],
-          "minerals": [
-            "iron",
-            "potassium"
-          ],
-          "water": "10ml"
+          "calories": "300 kcal",
+          "carbohydrates": "100 g",
+          "proteins": "5 g",
+          "fats": "20 g",
+          "fiber": "8 g",
+          "sugars": "30 g",
+          "sodium": "8 mg"
+        }
+      },
+      {
+        "id": 3,
+        "category": "dish",
+        "name": "Cheese Bread",
+        "photo": "cheese-bread.jpg",
+        "description": "The famous brazilian dish with a twist: deliciously vegan!",
+        "ingredients": [
+          "tapioca flour",
+          "water",
+          "coconut oil",
+          "vegan cheese",
+          "almond milk",
+          "coconut butter"
+        ],
+        "nutrition": {
+          "calories": "800 kcal",
+          "carbohydrates": "200 g",
+          "proteins": "15 g",
+          "fats": "30 g",
+          "fiber": "10 g",
+          "sugars": "20 g",
+          "sodium": "8 mg"
+        }
+      },
+      {
+        "id": 4,
+        "category": "dish",
+        "name": "Tapioca Bread with vegetables",
+        "photo": "tapioca-bread.jpg",
+        "description": "Soft bread with vegetables for a light lunch!",
+        "ingredients": [
+          "tapioca flour",
+          "water",
+          "coconut oil",
+          "vegetables",
+          "avocado"
+        ],
+        "nutrition": {
+          "calories": "500 kcal",
+          "carbohydrates": "100 g",
+          "proteins": "8 g",
+          "fats": "20 g",
+          "fiber": "20 g",
+          "sugars": "10 g",
+          "sodium": "8 mg"
         }
       }
     ]
@@ -76,61 +109,96 @@
       {
         "id": 1,
         "category": "dessert",
-        "name": "A Simple Tapioca",
-        "photo": "assets",
-        "description": "It's a delicious treat made of tapioca starch extracted from the cassava root and heated on a frying pan",
+        "name": "Whole grain waffle",
+        "photo": "waffle.jpg",
+        "description": "Delicious whole grain waffle!",
         "ingredients": [
           "tapioca flour",
+          "wheat",
           "water",
-          "salt",
-          "sugar"
+          "fructose",
+          "almond milk",
+          "fruits"
         ],
         "nutrition": {
-          "calories": "100cal",
-          "carbohydrates": "26g",
-          "proteins": "0g",
-          "fats": "0g",
-          "fiber": "0g",
-          "vitamins": [
-            "A",
-            "B",
-            "C"
-          ],
-          "minerals": [
-            "iron",
-            "potassium"
-          ],
-          "water": "10ml"
+          "calories": "600 kcal",
+          "carbohydrates": "100 g",
+          "proteins": "3 g",
+          "fats": "30 g",
+          "fiber": "20 g",
+          "sugars": "20 g",
+          "sodium": "1 mg"
         }
       },
       {
         "id": 2,
         "category": "dessert",
-        "name": "A Simple Tapioca",
-        "photo": "assets",
-        "description": "It's a delicious treat made of tapioca starch extracted from the cassava root and heated on a frying pan",
+        "name": "Our 'crepioca'",
+        "photo": "crepioca.jpg",
+        "description": "Tapioca + vegan crepe = crepioca! It's a light and refreshing sweet. Choose your favorite fruit!",
         "ingredients": [
           "tapioca flour",
           "water",
           "salt",
-          "sugar"
+          "sugar",
+          "fruits",
+          "almond milk"
         ],
         "nutrition": {
-          "calories": "100cal",
-          "carbohydrates": "26g",
-          "proteins": "0g",
-          "fats": "0g",
-          "fiber": "0g",
-          "vitamins": [
-            "A",
-            "B",
-            "C"
-          ],
-          "minerals": [
-            "iron",
-            "potassium"
-          ],
-          "water": "10ml"
+          "calories": "500 kcal",
+          "carbohydrates": "100 g",
+          "proteins": "3 g",
+          "fats": "20 g",
+          "fiber": "8 g",
+          "sugars": "15 g",
+          "sodium": "1 mg"
+        }
+      },
+      {
+        "id": 3,
+        "category": "dessert",
+        "name": "Tapioca pancakes",
+        "photo": "waffle.jpg",
+        "description": "Everyone loves pancakes and these are even better: all vegan and yummy!",
+        "ingredients": [
+          "tapioca flour",
+          "water",
+          "fructose",
+          "almond milk",
+          "fruits"
+        ],
+        "nutrition": {
+          "calories": "550 kcal",
+          "carbohydrates": "100 g",
+          "proteins": "3 g",
+          "fats": "30 g",
+          "fiber": "20 g",
+          "sugars": "20 g",
+          "sodium": "1 mg"
+        }
+      },
+      {
+        "id": 4,
+        "category": "dessert",
+        "name": "Tapioca Bread with Fruits",
+        "photo": "tapioca-bread-fruits.jpg",
+        "description": "Try our new twist on a sweet recipe: sweet tapioca bread with our berries of the season.",
+        "ingredients": [
+          "tapioca flour",
+          "water",
+          "fructose",
+          "almond milk",
+          "coconut oil",
+          "fruits"
+        ],
+        "nutrition": {
+          "calories": "700 kcal",
+          "carbohydrates": "150 g",
+          "proteins": "3 g",
+          "fats": "30 g",
+          "fiber": "20 g",
+          "sugars": "20 g",
+          "sodium": "1 mg"
         }
       }
     ]
@@ -139,66 +207,97 @@
     "category": "drinks",
     "title": "Drinks",
     "photo": "boba-tea.jpg",
-    "description": "Delicious boba tea and boba coffee to complement your vegan meal!",
+    "description": "Delicious boba tea and boba coffee to complete your vegan meal!",
     "items": [
       {
         "id": 1,
         "category": "drink",
         "name": "Boba Tea",
-        "photo": "assets",
-        "description": "It's a delicious treat made of tapioca starch extracted from the cassava root and heated on a frying pan",
+        "photo": "boba-tea.jpg",
+        "description": "It's a delicious tea made with tapioca pearls and different fruity flavors. Check the choices of the day on our store!",
         "ingredients": [
-          "tapioca flour",
+          "tapioca pearl",
           "water",
-          "salt",
-          "sugar"
+          "fructose",
+          "almond milk"
         ],
         "nutrition": {
-          "calories": "100cal",
-          "carbohydrates": "26g",
-          "proteins": "0g",
-          "fats": "0g",
-          "fiber": "0g",
-          "vitamins": [
-            "A",
-            "B",
-            "C"
-          ],
-          "minerals": [
-            "iron",
-            "potassium"
-          ],
-          "water": "10ml"
+          "calories": "272 kcal",
+          "carbohydrates": "68 g",
+          "proteins": "1 g",
+          "fats": "0 g",
+          "fiber": "0.7 g",
+          "sugars": "2.5 g",
+          "sodium": "0.8 mg"
         }
       },
       {
         "id": 2,
         "category": "drink",
-        "name": "A Simple Tapioca",
-        "photo": "assets",
-        "description": "It's a delicious treat made of tapioca starch extracted from the cassava root and heated on a frying pan",
+        "name": "Boba Coffee",
+        "photo": "coffee-boba.jpg",
+        "description": "Our delicious ice cold coffee made with a strong dose of expresso, almond milk and boba pearls.",
         "ingredients": [
-          "tapioca flour",
+          "tapioca pearl",
           "water",
-          "salt",
-          "sugar"
+          "fructose",
+          "almond milk",
+          "coffee"
         ],
         "nutrition": {
-          "calories": "100cal",
-          "carbohydrates": "26g",
-          "proteins": "0g",
-          "fats": "0g",
-          "fiber": "0g",
-          "vitamins": [
-            "A",
-            "B",
-            "C"
-          ],
-          "minerals": [
-            "iron",
-            "potassium"
-          ],
-          "water": "10ml"
+          "calories": "280 kcal",
+          "carbohydrates": "68 g",
+          "proteins": "1 g",
+          "fats": "0 g",
+          "fiber": "0.7 g",
+          "sugars": "2.5 g",
+          "sodium": "0.8 mg"
+        }
+      },
+      {
+        "id": 3,
+        "category": "Boba tea with fruits",
+        "name": "Boba Tea",
+        "photo": "tea-with-fruits.jpg",
+        "description": "Our Boba tea with fruit pieces for you to munch away. Check the fruit choices of the day on our store!",
+        "ingredients": [
+          "tapioca pearl",
+          "water",
+          "fructose",
+          "almond milk",
+          "fruit"
+        ],
+        "nutrition": {
+          "calories": "400 kcal",
+          "carbohydrates": "80 g",
+          "proteins": "1 g",
+          "fats": "0 g",
+          "fiber": "3 g",
+          "sugars": "7 g",
+          "sodium": "0.8 mg"
+        }
+      },
+      {
+        "id": 4,
+        "category": "drink",
+        "name": "Boba Tea with avocado",
+        "photo": "boba-avocado.jpg",
+        "description": "Our Boba tea boosted with the cream of delicious avocados.",
+        "ingredients": [
+          "tapioca pearl",
+          "water",
+          "fructose",
+          "almond milk",
+          "avocado"
+        ],
+        "nutrition": {
+          "calories": "500 kcal",
+          "carbohydrates": "100 g",
+          "proteins": "5 g",
+          "fats": "31 g",
+          "fiber": "15 g",
+          "sugars": "2.5 g",
+          "sodium": "0.8 mg"
         }
       }
     ]
