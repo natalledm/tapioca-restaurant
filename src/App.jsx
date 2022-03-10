@@ -1,13 +1,13 @@
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
-import Home from "./components/Pages/Home";
+import Navbar from './components/layout/Navbar';
+import Content from './components/layout/Content';
+import Footer from './components/layout/Footer';
 
 export default function App() {
   return (
     <>
-      <Navbar />
-      <Home />
-      <Footer />
+    <Navbar />
+    <Content />
+    <Footer />
     </>
   );
-};
+}
