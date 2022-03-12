@@ -1,0 +1,48 @@
+.navigation-bar {
+  width: 100vw;
+  height: 7vh;
+  position: fixed;
+  margin: 0 auto;
+  padding-top: 1rem;
+  z-index: 100;
+  background-color: var(--orange);
+  font-family: "Ubuntu Mono";
+  font-weight: bold;
+}
+
+.nav-links-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin: 0 0.5rem;
+}
+
+.nav-links-items-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-links-items-container a {
+  text-decoration: none;
+  color: var(--black);
+  padding: 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+.nav-links-items-container a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width:600px) {
+  .nav-links-list {
+    justify-content: space-around;
+    margin: 0 15% 0 8%;
+  }
+
+ .nav-links-items-container a {
+    font-size: 1.7rem;
+    padding: 0 3rem;
+ }
+
+}
