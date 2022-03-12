@@ -24,6 +24,6 @@
 
 @media (min-width:600px) {
   .hero-logo {
-    margin-top: calc(30% + 7vh);
+    margin-top: calc(15% + 7vh);
   }
 }
