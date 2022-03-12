@@ -55,6 +55,13 @@ img {
   height: auto;
 }
 
+.bg-image {
+  background-image: url('./assets/images/bg-pattern.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @media (min-width:600px) {
   h1 {
     font-size: 5rem;

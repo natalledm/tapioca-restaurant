@@ -1,0 +1,26 @@
+.meal-photo-container {
+  width: 375px;
+  height: 226px;
+}
+
+.meal-photo {
+  width: 100%;
+  height: 100%;
+}
+
+.meal-content {
+  margin: 2rem 4rem;
+}
+
+.meal-title {
+  padding: 1rem;
+  text-align: center;
+}
+
+.meal-description {
+  padding: 2rem 1rem;
+}
+
+.meal-link {
+  text-decoration: none;
+}

@@ -1,0 +1,18 @@
+.products-page-container{
+  height: fit-content;
+}
+
+.products-title-container {
+  height: 35vh;
+  width: 100%;
+}
+
+.products-title {
+  text-align: center;
+  padding-top: 15vh;
+}
+
+.products-description {
+  height: fit-content;
+  margin: 10% 20%;
+}
