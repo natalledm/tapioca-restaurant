@@ -6,7 +6,7 @@ import './home.css';
 export default function Home() {
 
   const productsType = products.map((item, index) => {
-    return <TypeCard key={index} item={item} />
+    return <TypeCard key={index} item={item} reversed={index % 2 === 1} />
   })
   
   return (
@@ -14,7 +14,7 @@ export default function Home() {
       <section className='hero'>
         <img src={logo} alt="Tapioca Vegan Restaurant" className='hero-logo' />
       </section>
-      <section className='products-type-container'>
+      <section>
         {productsType}
       </section>
     </main>

@@ -1,13 +1,15 @@
 import { Link } from 'react-router-dom';
 import './typecard.css';
 
-export default function TypeCard({ item }) {
+export default function TypeCard({ reversed, item }) {
   const { category, title, photo, description } = item;
 
   const photoImg = require(`../../assets/photos/${photo}`);
 
+  const typeCardClasses = reversed ? 'typecard-container typecard-container__reversed' : 'typecard-container';
+
   return (
-    <div className="typecard-container">
+    <div className={typeCardClasses}>
       <div className='typecard-image-container'>
         <img src={photoImg} alt={title} className="typecard-image" />
       </div>

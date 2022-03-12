@@ -50,6 +50,13 @@
     height: 527px;
   }
 
+  .typecard-container__reversed {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 527px;
+  }
+
   .typecard-image-container {
     padding: 4rem;
     width: 50%;
