@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import products from '../../data/products.json';
 import NutritionTable from "./NutritionTable";
+import './product.css';
 
 export default function Product(props) {
 
@@ -20,24 +21,24 @@ export default function Product(props) {
   const { name, photo, description, ingredients, nutrition } = meal;
 
   const photoURL = require(`../../assets/photos/${photo}`);
-  const ingredientsListItem = ingredients.map(item => { return <li>{item}</li> });
+  const ingredientsListItem = ingredients.map((item, index) => { return <li key={index}>{item}</li> });
 
 
   return (
-    <section>
-      <div className="meal-photo-container">
-        <img src={photoURL} alt={name} className="meal-photo" />
+    <section className="product-page-container">
+      <div className="product-photo-container">
+        <img src={photoURL} alt={name} className="product-photo" />
       </div>
-      <h1>{name}</h1>
-      <p>{description}</p>
+      <h1 className="product-name">{name}</h1>
+      <p className="product-description">{description}</p>
       <div>
         <h3>Ingredients</h3>
-        <ul>
+        <ul className="product-ingredients-list">
           <p>{ingredientsListItem}</p>
         </ul>
       </div>
       <div>
-        <h3>Nutritional facts</h3>
+        <h3 className="product-nutrition-title">Nutritional facts</h3>
         <NutritionTable nutrition={nutrition} />
       </div>
     </section>
