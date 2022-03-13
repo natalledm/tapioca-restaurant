@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Contact from "../Pages/Contact";
 import Home from "../Pages/Home";
 import Product from "../product/Product";
@@ -8,6 +8,7 @@ export default function Content() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/*" element={<Navigate replace to="/" />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/dishes" element={<ProductsPage category="dishes" />}>
         <Route path=":id" element={<Product category="dishes" />} />

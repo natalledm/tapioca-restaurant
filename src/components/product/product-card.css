@@ -30,3 +30,26 @@
 .meal-link a:hover {
   text-decoration: underline;
 }
+
+@media (min-width:600px) {
+  .meal-card-container {
+    display: flex;
+    padding: 2% 10%;
+  }
+
+  .meal-photo-container {
+    width: 40%;
+  }
+
+  .meal-photo {
+    width: 375px;
+    height: 226px;
+  }
+
+  .meal-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

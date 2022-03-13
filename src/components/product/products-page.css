@@ -16,3 +16,9 @@
   height: fit-content;
   margin: 10% 20%;
 }
+
+@media (min-width:600px) {
+  .products-description {
+    padding: 1% 15%;
+  }
+}
