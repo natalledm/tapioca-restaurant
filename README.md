@@ -5,7 +5,7 @@
 This is the Tapioca Vegan Restaurant website made with React.
 It is a **mobile first page**, so please check it out first with your mobile or a mobile screen in your browser.
 
-You can visit the page [here](tbd) to learn more about it!
+You can visit the page [here](https://tapioca-restaurant.web.app/) to learn more about it!
 
 ---
 
@@ -45,8 +45,7 @@ There's also a [figma design](https://www.figma.com/file/qIlrk9pXTBrH2LdeLneOBq/
 ### Assets
 
 1. Fonts from Google Fonts
-2. Icons by FontAwesome
-3. Images from Unsplash
+2. Images from Unsplash
 
 ---
 
