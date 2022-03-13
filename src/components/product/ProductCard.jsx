@@ -14,7 +14,6 @@ export default function ProductCard({ item }) {
       <div className='meal-content'>
         <h2 className='meal-title'>{name}</h2>
         <p className='meal-description'>{description}</p>
-        <a>View {name} details</a>
         <p className='meal-link'><Link to={`/${category}/${id}`}> &gt; View details of {name}</Link></p>
       </div>
     </div>

@@ -12,15 +12,33 @@ export default function Product(props) {
     return item.category === category;
   })[0].items;
 
-  const entry = categoryItems.filter(item => {
+  const meal = categoryItems.filter(item => {
     return item.id === +id;
   })[0];
 
+  const { name, photo, description, ingredients, nutrition } = meal;
+
+  const photoURL = require(`../../assets/photos/${photo}`);
+  const ingredientsListItem = ingredients.map(item => { return <li>{item}</li> });
+
+
   return (
-    <>
-      <h1>{category} {id}</h1>
-      <h2>{JSON.stringify(entry, null, 4)}</h2>
-      <h3>{JSON.stringify(categoryItems, null, 4)}</h3>
-    </>
+    <section>
+      <div className="meal-photo-container">
+        <img src={photoURL} alt={name} className="meal-photo" />
+      </div>
+      <h1>{name}</h1>
+      <p>{description}</p>
+      <div>
+        <h3>Ingredients</h3>
+        <ul>
+          <p>{ingredientsListItem}</p>
+        </ul>
+      </div>
+      <div>
+        <h3>Nutritional facts</h3>
+        <p></p>
+      </div>
+    </section>
   );
 };

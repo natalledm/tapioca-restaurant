@@ -1,5 +1,5 @@
-import products from '../../data/products.json';
 import { Outlet } from 'react-router-dom';
+import products from '../../data/products.json';
 import ProductCard from './ProductCard';
 import './products-page.css';
 
