@@ -8,17 +8,15 @@ export default function Content() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/*" element={<Navigate replace to="/" />} />
+
       <Route path="/contact" element={<Contact />} />
-      <Route path="/dishes" element={<ProductsPage category="dishes" />}>
-        <Route path=":id" element={<Product category="dishes" />} />
-      </Route>
-      <Route path="/desserts" element={<ProductsPage category="desserts" />}>
-        <Route path=":id" element={<Product category="desserts" />} />
-      </Route>
-      <Route path="/drinks" element={<ProductsPage category="drinks" />}>
-        <Route path=":id" element={<Product category="drinks" />} />
-      </Route>
+      <Route path="/dishes" element={<ProductsPage category="dishes" />} />
+      <Route path="/dishes/:id" element={<Product category="dishes" />} />
+      <Route path="/desserts" element={<ProductsPage category="desserts" />} />
+      <Route path="/desserts/:id" element={<Product category="desserts" />} />
+      <Route path="/drinks" element={<ProductsPage category="drinks" />} />
+      <Route path="/drinks/:id" element={<Product category="drinks" />} />
+      <Route path="/*" element={<Navigate replace to="/" />} />
     </Routes>
   );
 }
