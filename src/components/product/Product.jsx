@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import products from '../../data/products.json';
+import NutritionTable from "./NutritionTable";
 
 export default function Product(props) {
 
@@ -37,7 +38,7 @@ export default function Product(props) {
       </div>
       <div>
         <h3>Nutritional facts</h3>
-        <p></p>
+        <NutritionTable nutrition={nutrition} />
       </div>
     </section>
   );
