@@ -31,6 +31,25 @@
   padding-bottom: 1rem;
 }
 
+.product-button-go-back {
+  width: 40%;
+  align-self: center;
+  margin: 1rem 1rem 3rem 1rem;
+  padding: 1rem;
+  font-family: "Ubuntu Mono", monospace;
+  background-color: var(--orange);
+  border: none;
+}
+
+.product-button-go-back a {
+  text-decoration: none;
+  color: black;
+}
+
+.product-button-go-back a:hover {
+  text-decoration: underline;
+}
+
 @media (min-width:600px) {
   .product-photo-container {
     width: 100%;

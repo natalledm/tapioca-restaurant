@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import products from '../../data/products.json';
 import NutritionTable from "./NutritionTable";
 import './product.css';
@@ -41,6 +41,11 @@ export default function Product(props) {
         <h3 className="product-nutrition-title">Nutritional facts</h3>
         <NutritionTable nutrition={nutrition} />
       </div>
+      <button className="product-button-go-back">
+        <p>
+          <Link to={`/${category}`}>Go back</Link>
+        </p>
+      </button>
     </section>
   );
 };
