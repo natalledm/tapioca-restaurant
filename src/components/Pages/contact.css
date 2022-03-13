@@ -1,0 +1,61 @@
+.contact-page-container {
+  height: fit-content;
+}
+
+.contact-title-container {
+  height: 35vh;
+  width: 100%;
+}
+
+.contact-title {
+  text-align: center;
+  padding-top: 15vh;
+}
+
+.contact-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Time */
+
+.contact-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.contact-time h3 {
+  padding-bottom: 1rem;
+}
+
+.contact-time p {
+  padding: 1rem;
+}
+
+/* Address */
+
+.contact-address-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.contact-address-container p {
+  padding: 1rem 2rem;
+}
+
+.map-container {
+  width: fit-content;
+  height: fit-content;
+  padding-bottom: 2rem;
+}
+
+.map {
+  width: 600px;
+  height: 450px;
+}
