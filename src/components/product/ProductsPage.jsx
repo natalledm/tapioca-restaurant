@@ -1,6 +1,7 @@
+import { Outlet } from 'react-router-dom';
 import products from '../../data/products.json';
-import { Link, Outlet } from 'react-router-dom';
-
+import ProductCard from './ProductCard';
+import './products-page.css';
 
 
 export default function ProductsPage({ category }) {
@@ -9,19 +10,22 @@ export default function ProductsPage({ category }) {
     return product.category === category;
   })[0]
 
+  const { title, description } = product;
 
 
+  const meals = product.items.map(item => {
+    return <ProductCard item={item} key={item.id} />
+  })
 
 
   return (
-    <div>
-      {category} {JSON.stringify(product, null, 4)}
-
-      {product.items.map(item => {
-        return <Link to={`/${category}/${item.id}`}>{item.name}</Link>
-      })}
-
+    <section className='products-page-container'>
+      <div className='products-title-container bg-image'>
+        <h1 className='products-title'>{title}</h1>
+      </div>
+      <div className='products-description'><p>{description}</p></div>
+      {meals}
       <Outlet />
-    </div>
+    </section>
   )
 }

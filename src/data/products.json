@@ -2,14 +2,14 @@
   {
     "category": "dishes",
     "title": "Dishes",
-    "photo": "dishes/tapioca.jpg",
+    "photo": "dish/tapioca.jpg",
     "description": "These are delicious dishes made with tapioca and plant based ingredients. Enjoy!",
     "items": [
       {
         "id": 1,
-        "category": "dish",
+        "category": "dishes",
         "name": "Tapioca",
-        "photo": "tapioca.jpg",
+        "photo": "dish/tapioca.jpg",
         "description": "It's a delicious treat made of tapioca starch extracted from the cassava root and heated on a frying pan. Choose your filler, but we recommend our jackfruit barbecue!",
         "ingredients": [
           "tapioca flour",
@@ -30,9 +30,9 @@
       },
       {
         "id": 2,
-        "category": "dish",
+        "category": "dishes",
         "name": "Tapioca cubes",
-        "photo": "tapioca-cubes.jpg",
+        "photo": "dish/tapioca-cubes.jpg",
         "description": "Ever tried our little tapioca cubes with our sweet chili sauce? It's amazing!",
         "ingredients": [
           "tapioca flour",
@@ -53,9 +53,9 @@
       },
       {
         "id": 3,
-        "category": "dish",
+        "category": "dishes",
         "name": "Cheese Bread",
-        "photo": "cheese-bread.jpg",
+        "photo": "dish/cheese-bread.jpg",
         "description": "The famous brazilian dish with a twist: deliciously vegan!",
         "ingredients": [
           "tapioca flour",
@@ -77,9 +77,9 @@
       },
       {
         "id": 4,
-        "category": "dish",
+        "category": "dishes",
         "name": "Tapioca Bread with vegetables",
-        "photo": "tapioca-bread.jpg",
+        "photo": "dish/tapioca-bread.jpg",
         "description": "Soft bread with vegetables for a light lunch!",
         "ingredients": [
           "tapioca flour",
@@ -103,14 +103,14 @@
   {
     "category": "desserts",
     "title": "Desserts",
-    "photo": "desserts/waffle.jpg",
+    "photo": "dessert/waffle.jpg",
     "description": "Sweets made from tapioca flour and plants!",
     "items": [
       {
         "id": 1,
-        "category": "dessert",
+        "category": "desserts",
         "name": "Whole grain waffle",
-        "photo": "waffle.jpg",
+        "photo": "dessert/waffle.jpg",
         "description": "Delicious whole grain waffle!",
         "ingredients": [
           "tapioca flour",
@@ -132,9 +132,9 @@
       },
       {
         "id": 2,
-        "category": "dessert",
+        "category": "desserts",
         "name": "Our 'crepioca'",
-        "photo": "crepioca.jpg",
+        "photo": "dessert/crepioca.jpg",
         "description": "Tapioca + vegan crepe = crepioca! It's a light and refreshing sweet. Choose your favorite fruit!",
         "ingredients": [
           "tapioca flour",
@@ -156,9 +156,9 @@
       },
       {
         "id": 3,
-        "category": "dessert",
+        "category": "desserts",
         "name": "Tapioca pancakes",
-        "photo": "waffle.jpg",
+        "photo": "dessert/tapioca-pancakes.jpg",
         "description": "Everyone loves pancakes and these are even better: all vegan and yummy!",
         "ingredients": [
           "tapioca flour",
@@ -179,9 +179,9 @@
       },
       {
         "id": 4,
-        "category": "dessert",
+        "category": "desserts",
         "name": "Tapioca Bread with Fruits",
-        "photo": "tapioca-bread-fruits.jpg",
+        "photo": "dessert/tapioca-bread-fruits.jpg",
         "description": "Try our new twist on a sweet recipe: sweet tapioca bread with our berries of the season.",
         "ingredients": [
           "tapioca flour",
@@ -206,14 +206,14 @@
   {
     "category": "drinks",
     "title": "Drinks",
-    "photo": "drinks/boba-tea.jpg",
+    "photo": "drink/boba-tea.jpg",
     "description": "Delicious boba tea and boba coffee to complete your vegan meal!",
     "items": [
       {
         "id": 1,
-        "category": "drink",
+        "category": "drinks",
         "name": "Boba Tea",
-        "photo": "boba-tea.jpg",
+        "photo": "drink/boba-tea.jpg",
         "description": "It's a delicious tea made with tapioca pearls and different fruity flavors. Check the choices of the day on our store!",
         "ingredients": [
           "tapioca pearl",
@@ -233,9 +233,9 @@
       },
       {
         "id": 2,
-        "category": "drink",
+        "category": "drinks",
         "name": "Boba Coffee",
-        "photo": "coffee-boba.jpg",
+        "photo": "drink/coffee-boba.jpg",
         "description": "Our delicious ice cold coffee made with a strong dose of expresso, almond milk and boba pearls.",
         "ingredients": [
           "tapioca pearl",
@@ -256,9 +256,9 @@
       },
       {
         "id": 3,
-        "category": "Boba tea with fruits",
-        "name": "Boba Tea",
-        "photo": "tea-with-fruits.jpg",
+        "category": "drinks",
+        "name": "Boba Tea with fruits",
+        "photo": "drink/tea-with-fruits.jpg",
         "description": "Our Boba tea with fruit pieces for you to munch away. Check the fruit choices of the day on our store!",
         "ingredients": [
           "tapioca pearl",
@@ -279,9 +279,9 @@
       },
       {
         "id": 4,
-        "category": "drink",
+        "category": "drinks",
         "name": "Boba Tea with avocado",
-        "photo": "boba-avocado.jpg",
+        "photo": "drink/boba-avocado.jpg",
         "description": "Our Boba tea boosted with the cream of delicious avocados.",
         "ingredients": [
           "tapioca pearl",

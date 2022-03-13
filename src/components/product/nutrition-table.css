@@ -1,0 +1,14 @@
+.nutri-table-container {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.nutri-table-container p {
+  padding: 1rem;
+  text-align: start;
+  border: 1px solid black;
+  width: 216px;
+}

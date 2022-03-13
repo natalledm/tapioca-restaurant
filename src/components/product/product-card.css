@@ -1,0 +1,55 @@
+.meal-photo-container {
+  width: 375px;
+  height: 226px;
+}
+
+.meal-photo {
+  width: 100%;
+  height: 100%;
+}
+
+.meal-content {
+  margin: 2rem 4rem;
+}
+
+.meal-title {
+  padding: 1rem;
+  text-align: center;
+}
+
+.meal-description {
+  padding: 2rem 1rem;
+}
+
+.meal-link a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--black);
+}
+
+.meal-link a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width:600px) {
+  .meal-card-container {
+    display: flex;
+    padding: 2% 10%;
+  }
+
+  .meal-photo-container {
+    width: 40%;
+  }
+
+  .meal-photo {
+    width: 375px;
+    height: 226px;
+  }
+
+  .meal-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

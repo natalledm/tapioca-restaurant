@@ -11,7 +11,7 @@ export default function Home() {
   
   return (
     <main className='home'>
-      <section className='hero'>
+      <section className='hero bg-image'>
         <img src={logo} alt="Tapioca Vegan Restaurant" className='hero-logo' />
       </section>
       <section>

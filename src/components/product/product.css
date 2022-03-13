@@ -1,0 +1,68 @@
+.product-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-photo-container {
+  width: 375px;
+  height: 226px;
+}
+
+.product-photo {
+  width: 100%;
+  height: 100%;
+}
+
+.product-name {
+  padding: 1rem;
+}
+
+.product-description {
+  padding: 0 5rem 3rem 5rem;
+}
+
+.product-ingredients-list {
+  padding: 1rem 0 3rem 0;
+}
+
+.product-nutrition-title {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.product-button-go-back {
+  width: 40%;
+  align-self: center;
+  margin: 1rem 1rem 3rem 1rem;
+  padding: 1rem;
+  font-family: "Ubuntu Mono", monospace;
+  background-color: var(--orange);
+  border: none;
+}
+
+.product-button-go-back a {
+  text-decoration: none;
+  color: black;
+}
+
+.product-button-go-back a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width:600px) {
+  .product-photo-container {
+    width: 100%;
+    height: 600px;
+    background-color: var(--bold-yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .product-photo {
+    width: 792px;
+    height: 594px;
+    padding: 1rem;
+  }
+}
