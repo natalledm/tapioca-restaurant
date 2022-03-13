@@ -1,6 +1,12 @@
 import './contact.css';
 
 export default function Contact() {
+
+  const emptySubmit = (event) => {
+    event.preventDefault();
+    return false;
+  }
+
   return (
     <main className="contact-page-container">
       <div className="contact-title-container bg-image">
@@ -14,6 +20,19 @@ export default function Contact() {
         </div>
         <div className="contact-book-table-container">
           <h3>Book a table</h3>
+          <div className="form-container">
+            <form onSubmit={emptySubmit} className="form-book-table">
+              <span className="form-book-table-field">
+                <label htmlFor="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder='Name' />
+              </span>
+              <span className="form-book-table-field">
+                <label htmlFor="message">Message:</label>
+                <input type="text" name="message" id="message" placeholder="Message" />
+              </span>
+              <input type="submit" value="submit" className="form-book-table-button" />
+            </form>
+          </div>
         </div>
         <div className="contact-address-container">
           <h3>Address</h3>

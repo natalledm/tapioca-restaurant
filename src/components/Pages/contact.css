@@ -36,6 +36,42 @@
   padding: 1rem;
 }
 
+/* Book a table */
+
+.contact-book-table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+.form-container {
+  padding: 2rem;
+}
+
+.form-book-table {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-book-table-field {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.form-book-table-button {
+  width: 60%;
+  align-self: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-family: "Ubuntu Mono", monospace;
+  color: black;
+  background-color: var(--orange);
+  border: none;
+  
+}
+
 /* Address */
 
 .contact-address-container {
