@@ -17,7 +17,7 @@ Information gathering from the [Assignment](https://drive.google.com/file/d/1yuS
 
 ### Project spreadsheet
 
-A [spreadsheet](https://drive.google.com/file/d/1yuSGFLBMUk3Kd41cEj-Gf0i02jf79hWR/view?usp=sharing) to organize the structure of the project.
+A [spreadsheet](https://docs.google.com/spreadsheets/d/1epnBBkNFceg1UPsXu5B-BbedfeuCZEZD_cUT6UbO6dc/edit?usp=sharing) to organize the structure of the project.
 
 ### Component tree
 
