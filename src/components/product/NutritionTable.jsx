@@ -1,10 +1,12 @@
-import './nutrition-table.css';
+import "./nutrition-table.css";
 
-export default function NutritionTable({nutrition}) {
+export default function NutritionTable({ nutrition }) {
+  const { calories, carbohydrates, proteins, fats, fiber, sugars, sodium } =
+    nutrition;
 
-  const {calories, carbohydrates, proteins, fats, fiber, sugars, sodium} = nutrition;
-
-  return(
+  // semantics -1
+  // If the name is table, then why use a div instead of a table?
+  return (
     <div className="nutri-table-container">
       <p>Calories: {calories}</p>
       <p>Carbohydrates: {carbohydrates}</p>
@@ -14,5 +16,5 @@ export default function NutritionTable({nutrition}) {
       <p>Sugars: {sugars}</p>
       <p>Sodium: {sodium}</p>
     </div>
-  )
+  );
 }

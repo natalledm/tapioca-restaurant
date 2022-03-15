@@ -9,6 +9,8 @@ export default function Content() {
     <Routes>
       <Route path="/" element={<Home />} />
 
+      {/* DRY (repetition) -1 You have dishes, desserts and drinks hardcoded */}
+      {/* It should be "category" as a variable and then the menu item as a variable as well */}
       <Route path="/contact" element={<Contact />} />
       <Route path="/dishes" element={<ProductsPage category="dishes" />} />
       <Route path="/dishes/:id" element={<Product category="dishes" />} />
