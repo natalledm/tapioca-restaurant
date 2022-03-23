@@ -1,6 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import products from "../../data/products.json";
-import NutritionTable from "./NutritionTable";
+import NutritionTable from "../layout/NutritionTable";
 import "./product.css";
 
 // This part from line 7 to 26 (before writting the comments look so meesy, check the refactor to compare)

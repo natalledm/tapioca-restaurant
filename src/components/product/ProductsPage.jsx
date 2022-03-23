@@ -4,12 +4,15 @@ import ProductCard from "./ProductCard";
 import "./products-page.css";
 
 export default function ProductsPage({ category }) {
+  // Properties
   const product = products.filter((product) => {
     return product.category === category;
   })[0];
 
+  // Destructuring
   const { title, description } = product;
 
+  // Components
   const meals = product.items.map((item) => {
     return <ProductCard item={item} key={item.id} />;
   });
@@ -19,9 +22,7 @@ export default function ProductsPage({ category }) {
       <div className="products-title-container bg-image">
         <h1 className="products-title">{title}</h1>
       </div>
-      <div className="products-description">
-        <p>{description}</p>
-      </div>
+      <p>{description}</p>
       {meals}
       <Outlet />
     </section>

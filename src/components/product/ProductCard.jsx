@@ -15,9 +15,7 @@ export default function ProductCard({ item }) {
         <h3 className="meal-title">{name}</h3>
         <p className="meal-description">{description}</p>
         {/* no need for the p, use the Link directly */}
-        <p className="meal-link">
-          <Link to={`/${category}/${id}`}> &gt; View details of {name}</Link>
-        </p>
+        <Link className="button" to={`/${category}/${id}`}> &gt; View details of {name}</Link>
       </div>
     </div>
   );
